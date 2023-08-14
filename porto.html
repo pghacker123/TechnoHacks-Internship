@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Poonam Gore Portfolio - Home</title>
+  <style>
+    /* CSS for navigation bar */
+    .navbar-container {
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 20px;
+    }
+
+    .navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: transparent;
+    }
+
+    .navbar li {
+      display: inline-block;
+    }
+
+    .navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: border-bottom 0.3s;
+    }
+
+    .navbar li a:hover {
+      background-color: transparent;
+      border-bottom: 2px solid white;
+    }
+
+    /* CSS for centering the heading */
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+      flex-direction: column;
+    }
+
+    .container h1 {
+      text-align: center;
+      margin: 0;
+      color: white;
+      font-size: 60px;
+      position: relative; /* Added relative position */
+    }
+
+    .container h1 span {
+      display: inline-block;
+      font-size: 16px; /* Added font-size for the span element */
+      color: white; /* Added white color */
+    }
+
+    /* CSS for background image */
+    body {
+      background-image: url("img5.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      color: white; /* Added white color for all content */
+    }
+
+    .developer-designer {
+      font-size: 24px; /* Increased font size for "Developer" and "Designer" */
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar-container">
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <h1>I AM POONAM GORE</h1>
+    <marquee behavior="scroll" direction="right" class="developer-marquee" scrollamount="14">
+      <span class="developer-designer">DEVELOPER </span>
+    </marquee>
+    <marquee behavior="scroll" direction="left" class="designer-marquee" scrollamount="14">
+      <span class="developer-designer">DESIGNER </span>
+    </marquee>
+  </div>
+
+  <!-- Content for home section -->
+ 
+</body>
+</html>
